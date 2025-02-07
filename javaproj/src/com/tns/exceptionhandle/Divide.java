@@ -9,10 +9,20 @@ public class Divide {
 			System.out.println("division "+c);
 		}
 		catch(ArrayIndexOutOfBoundsException e) {
-			System.out.println("exception caught");
+			System.out.println("exception caught"+e.getMessage());
 		}
-
-	public static void main(String[] args) {
+ 
+		catch(ArithmeticException  f) {
+			System.out.println(f.getMessage());
+		}
+		catch(IndexOutOfBoundsException d) {
+			System.out.println("exception caught"+d.getMessage());
+		}
+		catch(Exception j) {
+			System.out.println(j.getMessage());
+		}
+	
+	
 		
 
 	}

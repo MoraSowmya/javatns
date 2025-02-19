@@ -1,4 +1,4 @@
-package com.tns.synchronization;
+ package com.tns.synchronization;
 
 public class Example {
 	synchronized void display() {
